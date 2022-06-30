@@ -1,0 +1,111 @@
+#cuadrado{
+    background-color: rgb(146, 38, 175);
+    width: 100px;
+    height: 100px;
+}
+
+#rectangulo{
+    background-color: rgb(145, 45, 178);
+    width: 100px;
+    height: 50px;
+    border: 5px solid rgb(195, 62, 184);
+    margin-top: 60px;
+}
+
+#rombo {
+    width: 100px; 
+    height: 100px; 
+    border: 3px solid rgb(110, 39, 192); 
+    background: #8e47cc;
+    transform: rotate(45deg);
+    margin-left: 30px;
+    margin-top: 60px;
+}
+#rombo2{
+    background-color: rgb(177, 97, 231);
+    width: 100px;
+    height: 100px;
+    border: 4px solid rgb(136, 32, 192);
+    transform: rotate(45deg)skew(15deg, 15deg);
+    margin-left: 60px;
+    margin-top: 60px;
+}
+#ovalo {
+    width: 200px;
+    height: 100px;
+    background: rgb(130, 33, 187);;
+    border-radius: 50%;
+    margin-top: 60px;
+  }
+  #circulo{
+    background-color: rgb(119, 26, 195);
+    width: 100px;
+    height: 100px;
+    border: 5px solid skyblue;
+    border-radius: 100px;
+    margin-top: 60px;
+    border-top: 75px solid rgb(175, 26, 26);
+    border-left: 90px solid rgb(157, 42, 215);
+    border-right: 90px solid #d138ec;
+    border-radius: 50%;
+    border-color: bisque;
+    
+    
+    border-bottom-left-radius: 100% solid;
+
+}
+#cuadrado2 {
+    background-color: rgb(143, 25, 190);
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border-right: 15px solid #b170f2;
+    border-top: 15px solid #be7dff;
+    border-left: 15px solid #bc28ad;
+    border-bottom: 15px solid #d138ec;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+#trianguloRectangulo {
+    width: 45px;
+    height: 0px;
+    border-top: 75px solid rgb(255, 255, 255);
+    border-left: 90px solid rgb(157, 42, 215);
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+  #triangulo2 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgba(194, 113, 251, 0.658);
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    margin-top: 60px;
+  }
+ 
+@keyframes example {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    100%  {background-color:transparent; left:200px; top:0px;}
+   
+  }
+
+  #pelota{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: blueviolet;
+    animation: rebota 1s alternate infinite;
+  }
+ 
+  @keyframes rebota{
+    90%{height: 100px;}
+    100%{transform: translateY(200px);}
+  }
+
+
+
+
